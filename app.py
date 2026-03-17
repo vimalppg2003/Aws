@@ -18,3 +18,6 @@ print(b^2)
 
 c=10
 print(c^3)
+
+a=20
+print(a^4)
