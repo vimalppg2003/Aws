@@ -15,3 +15,6 @@ print(a^1)
 
 b=20
 print(b^2)
+
+a=10
+print(a^3)
