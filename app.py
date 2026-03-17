@@ -12,3 +12,6 @@ print(a*b)
 
 a=20
 print(a^1)
+
+b=20
+print(b^2)
