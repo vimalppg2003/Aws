@@ -2,18 +2,18 @@ pipeline{
     agent any
     stages{
         stage('Build'){
-            stpes{
+            steps{
                 sh """
-                    echo "runing build stage"
+                    echo "runing Build stage"
                     sudo cp index.html /var/www/html/index.nginx-debian.html
-                    echo "build completed"
+                    echo "Build completed"
                 """
             }
         }
         stage('Deploy'){
-            stpes{
+            steps{
                 sh """
-                    echo "runing deploy stage"
+                    echo "runing Deploy stage"
                     sudo systemctl restart nginx
                     echo "Deploy completed"
                 """
