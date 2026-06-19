@@ -1,2 +1,2 @@
 This is my fourth file.
-New file has created.
+New file created.
