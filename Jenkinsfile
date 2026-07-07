@@ -10,7 +10,7 @@ pipeline{
             steps{
                 sh """
                     echo "runing Build stage"
-                    sudo cp {$ params. 'SOURCE FILE '},${params.'DESTINATION FILE'}
+                    sudo cp ${params. 'SOURCE FILE '},${params.'DESTINATION FILE'}
                     echo "Build completed"
                 """
             }
